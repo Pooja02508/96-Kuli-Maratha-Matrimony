@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/96 Kuli Maratha Matrimony/app/src/main/res/drawable/custom_dialog_bg.xml" value="0.3728205128205128" />
+        <entry key="..\:/96 Kuli Maratha Matrimony/app/src/main/res/layout/activity_login.xml" value="0.1762917933130699" />
+        <entry key="..\:/96 Kuli Maratha Matrimony/app/src/main/res/layout/activity_onboarding.xml" value="0.3625" />
+        <entry key="..\:/96 Kuli Maratha Matrimony/app/src/main/res/layout/activity_premium.xml" value="0.3625" />
+        <entry key="..\:/96 Kuli Maratha Matrimony/app/src/main/res/layout/alert.xml" value="0.3625" />
+        <entry key="..\:/96 Kuli Maratha Matrimony/app/src/main/res/layout/otp_verify.xml" value="0.1762917933130699" />
+        <entry key="..\:/96 Kuli Maratha Matrimony/app/src/main/res/layout/splash_screen.xml" value="0.25" />
+        <entry key="..\:/96 Kuli Maratha Matrimony/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3425925925925926" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/drawable/black_border.xml" value="0.33055555555555555" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/drawable/border.xml" value="0.33055555555555555" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/activity_login_with_phone.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/activity_onboarding.xml" value="0.33" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/activity_premium.xml" value="0.20923913043478262" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/activity_profile.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/career_details.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/create_profile.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/fragment_my_profile.xml" value="0.33" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/fragment_step_two.xml" value="0.20260416666666667" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/login_details.xml" value="0.33" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/otp_verify.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/personal_details.xml" value="0.32432432432432434" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/phone_verification.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/profile_picture.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/social_details.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/splash_screen.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/layout/verify_number.xml" value="0.3625" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/menu/activity_main_drawer.xml" value="0.3569230769230769" />
+        <entry key="..\:/Jeevansathi Apps/96 Kuli Maratha Matrimony/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3287037037037037" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21875" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.21875" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/activity_diamond_member_ship.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/activity_gold_member_ship.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/activity_login.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/activity_main.xml" value="0.1691995947315096" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/activity_main2.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/activity_onboarding.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/activity_platinum_member_ship.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/activity_premium.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/ad_unified.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/app_bar_main.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/career_details.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/create_profile.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/fragment_groom.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/fragment_my_profile.xml" value="0.22" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/fragment_step_one.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/fragment_step_three.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/fragment_step_two.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/login_details.xml" value="0.33" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/navigation_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/otp_verify.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/personal_details.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/phone_verification.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/profile_picture.xml" value="0.3625" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/social_details.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/layout/verify_number.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/menu/activity_main_drawer.xml" value="0.3528205128205128" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/menu/navigation_drawer.xml" value="0.30185185185185187" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21875" />
+        <entry key="..\:/Users/madhu/AndroidStudioProjects/JeevanSathi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

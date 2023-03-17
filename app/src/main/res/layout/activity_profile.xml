@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profileImage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:text="User Name" />
+
+            <TextView
+                android:id="@+id/profileName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:hint="Username"
+                android:paddingLeft="10dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#0A0A0A" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Email" />
+
+            <TextView
+                android:id="@+id/profileEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="abc123@gmail.com"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:textColor="#0A0A0A" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Phone" />
+
+            <TextView
+                android:id="@+id/profilePhone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:hint="+91 7142212240"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Religion" />
+
+            <TextView
+                android:id="@+id/Religion"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Gender" />
+
+            <TextView
+                android:id="@+id/Gender"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Marital Status" />
+
+            <TextView
+                android:id="@+id/marital_status"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/msText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Mother Tongue" />
+
+            <TextView
+                android:id="@+id/mother_tongue"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Qualification" />
+
+            <TextView
+                android:id="@+id/Education"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Occupation" />
+
+            <TextView
+                android:id="@+id/Occupation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Income" />
+
+            <TextView
+                android:id="@+id/Income"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:gravity="start|center"
+                android:background="@drawable/infotext_border"
+                android:textColor="#000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

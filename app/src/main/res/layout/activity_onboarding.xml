@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kuli.marathamatrimony.Activity.MainActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerOnBoarding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JeevansathiSearch"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_margin="5dp" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/getPremium"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_above="@+id/tabLayoutIndicator"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/black_border"
+        android:src="@drawable/premium_membership" />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/l1"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp" />
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_above="@+id/ll">
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Register Free"
+            android:textSize="13dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/premium"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="Premium"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/explore"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Explore App"
+            android:textSize="13dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="Login"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

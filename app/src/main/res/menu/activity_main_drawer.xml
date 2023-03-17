@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/ic_premium_member"
+            android:title="Upgrade to Premium"/>
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/ic_my_account"
+            android:title="My Account"/>
+
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_register"
+            android:title="Register"/>
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Login"/>
+        <item
+            android:id="@+id/nav_viewprofile"
+            android:icon="@drawable/ic_who_seeyour_profile"
+            android:title="Who Viewed My Profile" />
+        <item
+            android:id="@+id/nav_newprofile"
+            android:icon="@drawable/ic_matching_profile_for_you"
+            android:title="Matching New Profile" />
+        <item
+            android:id="@+id/nav_bride"
+            android:icon="@drawable/ic_bride"
+            android:title="Bride" />
+        <item
+            android:id="@+id/nav_groom"
+            android:icon="@drawable/ic_groom_icon"
+            android:title="Groom" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_terms_and_conditions"
+            android:title="Terms" />
+        <item
+            android:id="@+id/nav_premiummemberships"
+            android:icon="@drawable/ic_join_premium_membership"
+            android:title="Premium MemberShips" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_contact_us"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/ic_about_us_icon"
+            android:title="Invite Friends"
+            android:onClick="invitefriends"/>
+        <item
+            android:id="@+id/nav_whatsapp"
+            android:icon="@drawable/ic_whatsapp_icon"
+            android:title="WhatsApp"
+            android:onClick="whatsapp"/>
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/ic_facebook_profile"
+            android:title="Facebook"
+            android:onClick="facebook"/>
+
+    </group>
+</menu>

@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bannerAdLayout">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_ID">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_above="@id/bannerAdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/purple_200"
+        android:text="Platinum MemberShip"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Write Messages to member"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Express interest in profile"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Tagged as Paid Member"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• See Who Viewed Your Profile"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Member Connect you on whattsapp"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Member Call you on your Mobile"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Member Can send you SMS"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Member can visit your Address"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Member can send mail to you"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• View Horoscope of Member's"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Share profile with friend and relative"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Hashtags for your profile"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Email blast"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Favorite profiles"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Profile Filter"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Privacy lock"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/fl_adplaceholder"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content" />-->
+<!--            </LinearLayout>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• E- magazine"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Custom web link"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Worldwide Coverage"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Community Matrimonial"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Send whatsapp Message of other"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• User-name and Password to log in"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Profile Highlighter"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Expert Profile Writing Service"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Offers from Partners"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Enhanced Privacy"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• SMS Alerts for your profile"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Profile Highlighter"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Send Voice Messages to other profiles"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Share contact details with you"
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Don,t See  Social and Professional Profiles of Members"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Don,t  Have First page ranking on Google"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Don,t  Have personalized match making service"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• We Don,t arrange any introduction and meetings"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Don,t Have any Social Promotion"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Don,t  Have any Handpicked matches"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Don,t have magazine subscription"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="• Don,t  Have any whatsapp support"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:text="In Jeevansathi search Platinum Membership plan We Do not share verified contact details with you so You can not  contact on whattsapp  number  Don't have Priority in search results so you Don't have First page ranking on Google Don't have Profile Highlighter  Don't have  SMS Alerts: Expert Profile Writing Service and  A personalized match making service Don't receive user-name and password to log in Don't Send Voice Message  Don,t See  Social and Professional Profile of members we only create an plane profile so you can share it  with your relatives and search-able in website."
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_horoscope"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:textAllCaps="true"
+                    android:text="View Horoscope of Member's"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="Birth Date and time Horoscope of members"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_write_messages_to_member"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Write Messages to member"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="You can write direct message to members with your Profile id"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_see_who_viewed_your_profile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="See Who Viewed Your Profile"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="You can See Who Viewed Your Profile"
+                android:textColor="#0055FF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_check_how_many_people_visit_your_profile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Check how many people visit your Profile"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="You can find out how many people visit your Profile"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_member_connect_you_on_whatsapp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Member Connect you on whatsapp"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="We can display your whatsapp number on website"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_member_call_you_on_your_mobile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Member Call you on your Mobile"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="We can display your Mobile number on website so another members can call you"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_member_can_send_you_sms_on__your_mobile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Member Can send you SMS On  your Mobile"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="Member Can send you SMS On  your Mobile"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_member_can_visit_your_address"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Member can visit your Address"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="We can display your Detail address so any member interested in your profile can visit your address"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_member_can_send_mail_to_you"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Member can send mail to you"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="We display your  email id on website so another members can mail you "
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_express_interest_in_profile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Express interest in profile"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="Member Can  Express interest in profile "
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_bookmark_profiles"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Bookmark profiles"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="We can display your Detail address so any member interested in your profile can visit your address"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_tagged_as_paid_member"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Tagged as Paid Member"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="Tagged as Paid Member"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_hashtags_for_your_profile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Hashtags for your profile"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="3 Different Hash tags for your profile"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_e_mail_blast"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="E-MAIL BLAST"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="We send email to our other gender profiles that you have just join"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_add_favorite_profiles"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="ADD FAVORITE PROFILES"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="Your profile can add as favorite profile by opposite gender"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_profile_filter"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Profile Filter"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="You can filter search result by using any keyword"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_lock_for_your_privacy"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="LOCK FOR YOUR PRIVACY"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="You can add lock to your profiles so only paid member can see your profile"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_e__magazine"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="E- magazine"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="We add your profile to our e magazine"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_custom_web_link"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Custom web link"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="We Customize unique web link for each profile"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_free_worldwide"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Free worldwide"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="Anyone in world can see your profile free of cost"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_one_plus_one_offers"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="One plus one offers"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="One plus one offer On all packages"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_community_matrimonial"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Community Matrimonial"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="Community matrimonial base on Cast easy to find"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_worldwide_coverage"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Worldwide Coverage"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:text="Doesn't matter where your dream partner is, Our global presence helps to find them"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_share_your_profiles"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Share your profiles"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="We provide shareable web link for your profile so you can share easily"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Priority in search results"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="Priority in search results in website"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Special You tube Promotion"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="To Get maximum visibility for your profile"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Offers from Partners"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="Receive special offers from our Partners"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="First page ranking on Google"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="You can write Direct Message to members"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Profile Highlighter"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="Get maximum visibility"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Get The Edge - From Expert"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="Expert Profile Writing Service"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Assisted Service"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="A personalized match making service"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="SMS Alerts"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="Get instant notifications on your mobile"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="Send Voice Messages"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="A personalized match making service"
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_back_home_24"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="14dp"
+                    android:text="View Social and Professional Profile"
+                    android:textAllCaps="true"
+                    android:textColor="#FF0000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="14dp"
+                android:text="Social and Professional profile "
+                android:textColor="#0055FF"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="14dp" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

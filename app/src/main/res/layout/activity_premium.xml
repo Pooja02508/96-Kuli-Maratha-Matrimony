@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transperent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bannerAdLayout">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_ID">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transperent"
+        android:layout_above="@+id/bannerAdLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/gold_premium"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/transperent"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/l1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transperent"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="Gold Membership"
+                                android:textColor="#FF9800"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="6 Months"
+                                android:textColor="#fff"
+                                android:textSize="14dp" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/t1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/l1"
+                            android:background="@color/transperent"
+                            android:gravity="start"
+                            android:paddingLeft="10dp"
+                            android:text="Introductory offer 93%"
+                            android:textColor="#fff"
+                            android:textSize="12dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/t1"
+                            android:background="@color/transperent"
+                            android:orientation="horizontal"
+                            android:padding="2dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="Now starting at only Rs551.00"
+                                android:textColor="#fff"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="60dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="start"
+                                android:src="@drawable/gold" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/platinum_premium"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/transperent"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/l2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transperent"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="Platinum Membership"
+                                android:textColor="#FF9800"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="6 Months"
+                                android:textColor="#fff"
+                                android:textSize="14dp" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/t2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/l2"
+                            android:background="@color/transperent"
+                            android:gravity="start"
+                            android:paddingLeft="10dp"
+                            android:text="Introductory offer 93%"
+                            android:textColor="#fff"
+                            android:textSize="12dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/t2"
+                            android:background="@color/transperent"
+                            android:orientation="horizontal"
+                            android:padding="2dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="Now starting at only Rs1500.00"
+                                android:textColor="#fff"
+                                android:textSize="16dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="60dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="start"
+                                android:src="@drawable/platinum" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/diamond_premium"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/transperent"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/l3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transperent"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="Diamond Membership"
+                                android:textColor="#FF9800"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="6 Months"
+                                android:textColor="#fff"
+                                android:textSize="14dp" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/t3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/l3"
+                            android:background="@color/transperent"
+                            android:gravity="start"
+                            android:paddingLeft="10dp"
+                            android:text="Introductory offer 93%"
+                            android:textColor="#fff"
+                            android:textSize="12dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/t3"
+                            android:background="@color/transperent"
+                            android:orientation="horizontal"
+                            android:padding="2dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:padding="10dp"
+                                android:text="Now starting at only Rs3000.00"
+                                android:textColor="#fff"
+                                android:textSize="16dp" />
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="60dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="start"
+                                android:src="@drawable/diamond" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/purchase"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+       android:layout_above="@+id/bannerAdLayout"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Purchase Premium"
+        android:textColor="#fff" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/fl_adplaceholder"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+<!--    </LinearLayout>-->
+
+
+</RelativeLayout>

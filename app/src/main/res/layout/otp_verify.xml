@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kuli.marathamatrimony.RegistrationActivities.OTPVerify">
+
+    <RelativeLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verification code sent to " />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/txt"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:text="Mobile"
+            android:textColor="#3F51B5"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/l1">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Didn't receive code?" />
+
+        <TextView
+            android:id="@+id/resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv"
+            android:paddingLeft="10dp"
+            android:text="Resend Code"
+            android:textColor="#3F51B5" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+        android:text="Enter OTP"
+        android:textColor="#3F51B5"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:paddingLeft="10dp" />
+
+    <RelativeLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@+id/enter"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/o1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/o2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=" "
+            android:gravity="center"
+            android:layout_toEndOf="@+id/o1"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/o3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_toEndOf="@+id/o2"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/o4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=" "
+            android:gravity="center"
+            android:layout_toEndOf="@+id/o3"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/o5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=" "
+            android:gravity="center"
+            android:layout_toEndOf="@+id/o4"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/o6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_toEndOf="@+id/o5"
+            android:inputType="number"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Verify" />
+
+
+</RelativeLayout>

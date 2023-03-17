@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">96 Kuli Maratha Matrimony</string>
+    <string name="title_activity_navigation_drawer">96 Kuli Maratha Matrimony</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">96 Kuli Maratha Matrimony</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="gold_membership">Gold MemberShip</string>
+    <string name="e_magazine">• E- magazine</string>
+    <string name="member_can_visit_your_address">• Member can visit your Address</string>
+    <string name="write_messages_to_member">• Write Messages to member</string>
+    <string name="express_interest_in_profile">• Express interest in profile</string>
+
+    <string name="ADMOB_ADS_UNIT_ID">ca-app-pub-6208373148447455~3072804838</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="BANNER_ID">ca-app-pub-6208373148447455/5915424743</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

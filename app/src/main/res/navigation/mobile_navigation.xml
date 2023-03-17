@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_premium"
+        android:name="com.kuli.marathamatrimony.Fragment.UpgradeToPremium"
+        android:label="Upgrade To Premium"
+        tools:layout="@layout/fragment_upgrade_to_premium"/>
+
+    <fragment
+        android:id="@+id/nav_viewprofile"
+        android:name="com.kuli.marathamatrimony.Fragment.WhoViewedMyProfile"
+        android:label="Who Viewed My Profile"
+        tools:layout="@layout/fragment_who_viewed_my_profile"/>
+    <fragment
+        android:id="@+id/nav_newprofile"
+        android:name="com.kuli.marathamatrimony.Fragment.MatchingNewProfile"
+        android:label="Matching New Profile"
+        tools:layout="@layout/fragment_matching_new_profile"/>
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kuli.marathamatrimony.Fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/nav_bride"
+        android:name="com.kuli.marathamatrimony.Fragment.Bride"
+        android:label="Bride"
+        tools:layout="@layout/fragment_bride"/>
+    <fragment
+        android:id="@+id/nav_groom"
+        android:name="com.kuli.marathamatrimony.Fragment.Groom"
+        android:label="Groom"
+        tools:layout="@layout/fragment_groom"/>
+    <fragment
+        android:id="@+id/nav_terms"
+        android:name="com.kuli.marathamatrimony.Fragment.TermsFragment"
+        android:label="Terms"
+        tools:layout="@layout/fragment_terms"/>
+    <fragment
+        android:id="@+id/nav_premiummemberships"
+        android:name="com.kuli.marathamatrimony.Fragment.PremiumMemberShipsFragment"
+        android:label="Premium Memberships"
+        tools:layout="@layout/fragment_premium_member_ships"/>
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.kuli.marathamatrimony.Fragment.ContactUsFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact_us"/>
+
+
+</navigation>
